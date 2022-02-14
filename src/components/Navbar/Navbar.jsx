@@ -32,22 +32,22 @@ const Navbar = () => {
       <div className="app__navbar-smallscren">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
 
-        {
-          toggleMenu && <div className="app__navbar-smallscren_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
-            <ul className="app__navbar-smallscren_links">
-              <li className="p__opensans"><a href="#home">Trang chủ</a></li>
-              <li className="p__opensans"><a href="#about">Về chúng tôi</a></li>
-              <li className="p__opensans"><a href="#menu">Thực đơn</a></li>
-              <li className="p__opensans"><a href="#awards">Giải thưởng</a></li>
-              <li className="p__opensans"><a href="#contact">Liên hệ</a></li>
-            </ul>
-          </div>
-        }
+        <div className={toggleMenu
+          ? "app__navbar-smallscren_overlay app__navbar-smallscren_overlay--active flex__center"
+          : "app__navbar-smallscren_overlay flex__center"}>
+          <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
+          <ul className="app__navbar-smallscren_links">
+            <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#home">Trang chủ</a></li>
+            <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#about">Về chúng tôi</a></li>
+            <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#menu">Thực đơn</a></li>
+            <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#awards">Giải thưởng</a></li>
+            <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#contact">Liên hệ</a></li>
+          </ul>
+        </div >
 
 
-      </div>
-    </nav>
+      </div >
+    </nav >
   )
 };
 

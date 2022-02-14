@@ -1,0 +1,13 @@
+.app__scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+.app__scrollTop-icon {
+    font-size: 30px;
+    color: var(--color-golden);
+    cursor: pointer;
+}

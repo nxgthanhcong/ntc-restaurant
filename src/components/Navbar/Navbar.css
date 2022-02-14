@@ -4,8 +4,11 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
-
     padding: 1rem 2rem;
+
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .app__navbar-logo {
@@ -73,6 +76,11 @@
 
     flex-direction: column;
     z-index: 5;
+    transform: translateX(100%);
+}
+
+.app__navbar-smallscren_overlay--active {
+    transform: translateX(0);
 }
 
 .app__navbar-smallscren_overlay .overlay__close {
