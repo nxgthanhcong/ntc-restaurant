@@ -25,9 +25,9 @@ const Gallery = () => {
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>Lorem sum sadddddj fsd f asdsdsdsdsdfds  sdfffffff sdfsdfsd</p>
-        <button type="button" className="custom__button">View more</button>
+        <h1 className="headtext__cormorant">Kho ảnh</h1>
+        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>Đây là nơi để các bạn chia sẻ các khoảnh khắc tại quán của chúng tôi</p>
+        <button type="button" className="custom__button" style={{ marginTop: "2rem" }}>Xem thêm</button>
       </div>
 
       <div className="app__gallery-images">

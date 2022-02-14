@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const foods = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Bò Xào',
+    price: '200.000 VND',
+    tags: 'F | Xào',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Lẩu Bò',
+    price: '200.000 VND',
+    tags: 'F | Lẩu',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Bò Chiên',
+    price: '200.000 VND',
+    tags: 'F | Chiên',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Bò Hấp Sả',
+    price: '200.000 VND',
+    tags: 'F | Hấp',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Lẩu Sườn Bò',
+    price: '200.000 VND',
+    tags: 'F | Lẩu',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Rượu Đế',
+    price: '15.000 VND',
+    tags: 'D | Rượu',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Rượu thuốc",
+    price: '20.000 VND',
+    tags: 'D | Rượu',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Rượu Nếp',
+    price: '30.000 VND',
+    tags: 'D | Rượu',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Bia các loại',
+    price: 'Giá các loại',
+    tags: 'D | Bia',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Trà Đá',
+    price: 'free',
+    tags: 'D | Trà',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines: foods, cocktails, awards };

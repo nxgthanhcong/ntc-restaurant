@@ -11,24 +11,21 @@ const Chef = () => (
     </div>
 
     <div className="app__wrapper_info">
-      <SubHeading title="Chef Words" />
-      <h1 className="headtext__cormorant">What We Believe In</h1>
+      <SubHeading title="Đầu bếp của chúng tôi" />
+      <h1 className="headtext__cormorant">Điều gì làm nên một ngày của chúng tôi</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="" />
           <p className="p__opensans">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+            Phục vụ đến các bạn những món ăn ngon, lạ mắt, không kém phần vệ sinh an toàn làm nên một ngày của chúng tôi
           </p>
         </div>
-        <p className="p__opensans">
-          's standard dummy text ever since the 1500s
-        </p>
       </div>
 
       <div className="app__chef-sign">
-        <p>Ng Van Chien</p>
-        <p className="p__opensans">Chef & Founder</p>
+        <p>Nguyen Van Chien</p>
+        <p className="p__opensans">Đầu bếp & Nhà sáng lập</p>
         <img src={images.sign} alt="zzz" />
       </div>
     </div>
