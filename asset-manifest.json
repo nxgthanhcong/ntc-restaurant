@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ntc-restaurant/static/css/main.43d29dcb.css",
-    "main.js": "/ntc-restaurant/static/js/main.c70ba100.js",
+    "main.css": "/ntc-restaurant/static/css/main.da2283f7.css",
+    "main.js": "/ntc-restaurant/static/js/main.61f3da68.js",
     "static/media/meal.mp4": "/ntc-restaurant/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/ntc-restaurant/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/welcome.png": "/ntc-restaurant/static/media/welcome.d724eb984456d9c97470.png",
@@ -24,12 +24,12 @@
     "static/media/award03.png": "/ntc-restaurant/static/media/award03.3f7ee934c17dccbd5fc6.png",
     "static/media/sign.png": "/ntc-restaurant/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/ntc-restaurant/index.html",
-    "static/media/spoon.svg": "/ntc-restaurant/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.43d29dcb.css.map": "/ntc-restaurant/static/css/main.43d29dcb.css.map",
-    "main.c70ba100.js.map": "/ntc-restaurant/static/js/main.c70ba100.js.map"
+    "static/media/spoon.svg": "/ntc-restaurant/static/media/spoon.b5681c867bb867d794693513d048401f.svg",
+    "main.da2283f7.css.map": "/ntc-restaurant/static/css/main.da2283f7.css.map",
+    "main.61f3da68.js.map": "/ntc-restaurant/static/js/main.61f3da68.js.map"
   },
   "entrypoints": [
-    "static/css/main.43d29dcb.css",
-    "static/js/main.c70ba100.js"
+    "static/css/main.da2283f7.css",
+    "static/js/main.61f3da68.js"
   ]
 }
