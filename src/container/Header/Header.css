@@ -1,4 +1,5 @@
 .app__header {
+    margin-top: 50px;
     background: var(--color-black);
 }
 
